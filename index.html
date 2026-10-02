@@ -208,6 +208,9 @@
   .feat h3{font-family:var(--serif);font-weight:600;font-size:25px;color:var(--ink);margin:15px 0 8px;}
   .feat p{font-size:15.5px;color:var(--text);line-height:1.62;max-width:660px;}
   @media(max-width:820px){.feat{padding:26px 22px;}}
+  .note.red{background:var(--red-bg);border-color:rgba(159,47,45,0.16);}
+  .note.red .lb{color:var(--red-tx);}
+  .note.red b{color:var(--red-tx);}
 </style>
 </head>
 <body>
@@ -368,39 +371,22 @@
       <div class="step reveal">
         <div class="step-n">4</div>
         <div>
-          <h3>Ge den videon och din character sheet</h3>
-          <p>Ladda upp den virala videon och din character sheet. Restyle behåller allt i videon precis som det är, rörelserna, kameran, miljön, och byter bara ut personen mot din karaktär. Du gör inget mer.</p>
-          <figure class="fig illus wide">
-            <svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img"><title>En video och en character sheet går in i Restyle, ut kommer samma video med din karaktär</title>
-              <rect x="0" y="0" width="560" height="220" fill="#FBFBFA"/>
-              <rect x="30" y="30" width="86" height="150" rx="12" fill="#FFFFFF" stroke="#1F1D1B" stroke-width="2"/>
-              <circle cx="73" cy="88" r="16" fill="#EAEAEA"/>
-              <path d="M51 140c4-18 40-18 44 0" fill="#EAEAEA"/>
-              <path d="M62 160l14 8-14 8z" fill="#787774"/>
-              <text x="73" y="204" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600" fill="#787774">VIDEON</text>
-              <rect x="136" y="56" width="98" height="98" rx="10" fill="#FFFFFF" stroke="#1F1D1B" stroke-width="2"/>
-              <circle cx="158" cy="86" r="8" fill="#FBECE1" stroke="#B4481F" stroke-width="2"/>
-              <path d="M150 112c2-10 14-10 16 0" fill="none" stroke="#B4481F" stroke-width="2"/>
-              <circle cx="185" cy="86" r="8" fill="#FBECE1" stroke="#B4481F" stroke-width="2"/>
-              <path d="M177 112c2-10 14-10 16 0" fill="none" stroke="#B4481F" stroke-width="2"/>
-              <circle cx="212" cy="86" r="8" fill="#FBECE1" stroke="#B4481F" stroke-width="2"/>
-              <path d="M204 112c2-10 14-10 16 0" fill="none" stroke="#B4481F" stroke-width="2"/>
-              <path d="M150 132h70M150 142h48" stroke="#EAEAEA" stroke-width="2" stroke-linecap="round"/>
-              <text x="185" y="204" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600" fill="#787774">CHARACTER SHEET</text>
-              <path d="M252 105h34" stroke="#1A6BFF" stroke-width="2.6" stroke-linecap="round"/>
-              <path d="m278 97 10 8-10 8" fill="none" stroke="#1A6BFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-              <rect x="300" y="82" width="106" height="46" rx="23" fill="#FBECE1" stroke="#B4481F" stroke-width="2"/>
-              <text x="353" y="111" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" fill="#B4481F">Restyle</text>
-              <path d="M418 105h34" stroke="#1A6BFF" stroke-width="2.6" stroke-linecap="round"/>
-              <path d="m444 97 10 8-10 8" fill="none" stroke="#1A6BFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-              <rect x="462" y="30" width="86" height="150" rx="12" fill="#FFFFFF" stroke="#1F1D1B" stroke-width="2"/>
-              <circle cx="505" cy="88" r="16" fill="#FBECE1" stroke="#B4481F" stroke-width="2"/>
-              <path d="M483 140c4-18 40-18 44 0" fill="#FBECE1" stroke="#B4481F" stroke-width="2"/>
-              <path d="M494 160l14 8-14 8z" fill="#B4481F"/>
-              <text x="505" y="204" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600" fill="#B4481F">DIN VIDEO</text>
-            </svg>
-            <figcaption>Steg 4 · Samma video, din karaktär</figcaption>
+          <h3>Ladda upp videon och din character sheet</h3>
+          <p>Välj <b>Motion transfer (1)</b>. Lägg videon i den första rutan <b>(2)</b>, den ska vara mellan 4 och 30 sekunder lång. Lägg din character sheet i rutan under <b>(3)</b>, där får du ladda upp upp till 30 bilder.</p>
+          <figure class="fig illus sm">
+            <img src="images/restyle-tom.jpg" alt="Genjutsu i Higgsfield: Motion transfer markerad som 1, rutan för videon som 2 och rutan för karaktären som 3" loading="lazy">
+            <figcaption>Steg 4 · Motion transfer, videon, karaktären</figcaption>
           </figure>
+          <p>Restyle behåller allt i videon precis som det är, rörelserna, kameran och miljön, och byter bara ut personen mot din karaktär. När bilderna ligger på plats trycker du på <b>Generate (4)</b>. Knappen visar vad det kostar i krediter innan du trycker.</p>
+          <figure class="fig illus sm">
+            <img src="images/restyle-generate.jpg" alt="Två character sheets uppladdade, kvalitet 720p och knappen Generate markerad som 4 med kostnaden 210 krediter" loading="lazy">
+            <figcaption>Steg 4 · Kostnaden står på knappen</figcaption>
+          </figure>
+          <figure class="fig illus wide">
+            <img src="images/protected-content.jpg" alt="Higgsfields besked Protected content detected och Credits refunded" loading="lazy">
+            <figcaption>Steg 4 · Det här ser du om Higgsfield stoppar videon</figcaption>
+          </figure>
+          <div class="note red"><span class="lb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg></span><span>Känner Higgsfield igen originalvideon som skyddat material stoppar den jobbet och <b>ger tillbaka krediterna</b>. Det händer lätt med kända klipp. Ännu ett skäl att filma din egen version av formatet, som i steg 2.</span></div>
         </div>
       </div>
 
