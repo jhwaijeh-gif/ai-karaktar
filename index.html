@@ -211,6 +211,11 @@
   .note.red{background:var(--red-bg);border-color:rgba(159,47,45,0.16);}
   .note.red .lb{color:var(--red-tx);}
   .note.red b{color:var(--red-tx);}
+  /* Telefon: numret ovanför rubriken så att text och bilder får hela bredden (Judes besked 2026-10-13) */
+  @media(max-width:640px){
+    .step{grid-template-columns:minmax(0,1fr);gap:12px;padding:26px 0;}
+    .step-n{width:30px;height:30px;font-size:13px;}
+  }
 </style>
 </head>
 <body>
